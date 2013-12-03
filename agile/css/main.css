@@ -106,7 +106,7 @@ h1, h2 {
 }
 .hello .hello-content {
     width: 1100px;
-    height: 670px;
+    height: 925px;
     margin: auto;
     position: relative;
 }
@@ -117,11 +117,17 @@ h1, h2 {
     margin: 0px;
 }
 
+<<<<<<< HEAD
 .hello .header-bigdata {
     height: 368px;
     width: 596px;
+=======
+.hello .header-agile {
+    height: 319px;
+    width: 470px;
+>>>>>>> 3d23bf5581fb9d003b98c76f0bd2ca0b36ba91d6
     position: absolute;
-    top: 0px;
+    top: 60px;
     right: 0px;
     z-index: 10;
 }
@@ -145,9 +151,9 @@ h1, h2 {
 }
 .hello .hello-content .hello-content-icosahedron {
     position: absolute;
-    top: 150px;
-    left: 100px;
-    width: 322px;
+    top: 130px;
+    left: 120px;
+    width: 442px;
     height: 230px;
     background: url('../images/hello-content-icosahedron.png') no-repeat;
     z-index: 10;
@@ -172,6 +178,16 @@ h1, h2 {
     text-align: justify;
 }
 
+<<<<<<< HEAD
+=======
+.hello .agile-intro ul {
+    font-size: 16px;
+    line-height: 30px;
+    list-style-type:square;
+    margin-left: 50px;
+}
+
+>>>>>>> 3d23bf5581fb9d003b98c76f0bd2ca0b36ba91d6
 
 
 /* our offer */
