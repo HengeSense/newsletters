@@ -2,7 +2,7 @@
 definePackage("xebia", function(pkg) {
 
     pkg.constants = {
-        VIMEO_CHANNEL_ID : "544319"
+        VIMEO_CHANNEL_ID : "agilite"
     };
 
     pkg.Application = fwk.Class.extend({
