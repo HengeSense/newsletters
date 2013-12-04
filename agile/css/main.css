@@ -52,7 +52,7 @@ h1, h2 {
     position: relative;
 }
 .nav .nav-content a {
-    font: 15px 'UbuntuRegular', Arial, sans-serif;
+    font: 14px 'UbuntuRegular', Arial, sans-serif;
     color: #6a205f;
     text-transform: uppercase;
     margin: 0px 15px;
@@ -202,7 +202,7 @@ h1, h2 {
     padding: 0px 15px;
     text-align: center;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 16px;
 }
 
 .our-offer .our-offer-content .our-offer-subcontent {
@@ -238,23 +238,60 @@ h1, h2 {
     background:url("../images/plus-icon.png") no-repeat;
 }
 
+/* lean start up */
+
+
+.lean-start-up {
+    background-color: #ffffff;
+}
+
+.lean-start-up .lean-start-up-content {
+    margin: auto;
+    height: 100%;
+    width: 1000px;
+    position: relative;
+}
+
+.lean-start-up .lean-start-up-content h2 {
+    padding: 20px 0px;
+    font-size: 42px;
+}
+
+.lean-start-up .lean-start-up-content h3 {
+    padding: 20px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.lean-start-up .lean-start-up-content p {
+    padding: 0px 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.lean-start-up .lean-start-up-content .lean-start-up-subcontent {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+    width: 305px;
+}
+
 /* Missions */
 .studio {
     background: url('../images/cibles/dsi.png') no-repeat;
     display: block;
-width: 310px;
-height: 275px;
-text-align: center;
-margin: auto;
-position: relative;
-padding: 1px;
-cursor: pointer;
+    width: 310px;
+    height: 275px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 1px;
+    cursor: pointer;
 }
 
 .desc {
-          margin-top: 20px;
-          margin-left: 55px;
-          margin-right: 55px;
+          margin: 20px ;
           font: 13px 'UbuntuRegular', Arial, sans-serif;
         }
 
