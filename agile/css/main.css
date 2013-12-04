@@ -192,16 +192,24 @@ h1, h2 {
     font-size: 42px;
 }
 
+.our-offer .our-offer-content h3 {
+    padding: 20px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
 .our-offer .our-offer-content p {
     padding: 0px 15px;
-    text-align: justify;
-    font-size: 16px;
-    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 14px;
 }
 
 .our-offer .our-offer-content .our-offer-subcontent {
     margin: auto;
-    width: 695px;
+    display: inline-block;
+    text-align: center;
+    width: 305px;
 }
 
 .our-offer-monetize {
@@ -209,6 +217,55 @@ h1, h2 {
     background: transparent url(../images/our-offer-monetize.png) no-repeat top center;
 }
 
+.toggle{
+    display:inline-block;
+    height:16px;
+    width:16px;
+    background:url("../images/plus-icon.png") no-repeat;
+    margin-top: 5px;
+}
+
+.toggle:after{
+    display:block;
+    height:48px;
+    line-height:48px;
+    width:88px;
+    margin-left:48px;
+}
+.toggle.expanded:after{
+}
+.toggle.expanded {
+    background:url("../images/plus-icon.png") no-repeat;
+}
+
+/* Missions */
+.studio {
+    background: url('../images/cibles/dsi.png') no-repeat;
+    display: block;
+width: 310px;
+height: 275px;
+text-align: center;
+margin: auto;
+position: relative;
+padding: 1px;
+cursor: pointer;
+}
+
+.desc {
+          margin-top: 20px;
+          margin-left: 55px;
+          margin-right: 55px;
+          font: 13px 'UbuntuRegular', Arial, sans-serif;
+        }
+
+  .title {
+          margin-top: 152px;
+          height: 40px;
+          font: 25px 'UbuntuRegular', Arial, sans-serif;
+          line-height: 40px;
+          color: #6a205f;
+          text-transform: uppercase;
+        }
 /* our formations */
 
 .our-formations .formations {
@@ -241,11 +298,12 @@ h1, h2 {
 }
 
 .case-study .section-content .case-study-sncf {
-    position: absolute;
-    left: 300px;
-    top: 90px;
-    width: 600px;
+    position: relative;
+    left: 0px;
+    width: 300px;
+    display: inline-block;
 }
+
 
 .case-study .section-content img {
     margin-bottom: 25px;
@@ -264,7 +322,7 @@ h1, h2 {
     display: inline-block;
     background-color: #31a4c3;
     text-transform: uppercase;
-    margin-top: 5px;
+    margin: 5px 0px 30px 0px;
     padding: 5px 10px;
     color: #FFFFFF;
 
