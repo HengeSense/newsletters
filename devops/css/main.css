@@ -85,7 +85,55 @@ h1, h2 {
     font-size: 42px;
 }
 
+/* Lightbox */
 
+@media all {
+                .lightbox { display: none; }
+                .fl-page h1,
+                .fl-page h3,
+                .fl-page h4 {
+                    font-family: 'UbuntuRegular', Arial, Helvetica, sans-serif;
+                    font-weight: 100;
+                    letter-spacing: 1px;
+                }
+                .fl-page h1 { font-size: 110px; margin-bottom: 0.5em; }
+                .fl-page h1 i { font-style: normal; color: #ddd; }
+                .fl-page h1 span { font-size: 30px; color: #333;}
+                .fl-page h3 { text-align: right; }
+                .fl-page h3 { font-size: 15px; }
+                .fl-page h4 { font-size: 2em; }
+                .fl-page .jumbotron { margin-top: 2em; }
+                .fl-page .doc { margin: 2em 0;}
+                .fl-page .btn-download { float: right; }
+                .fl-page .btn-default { vertical-align: bottom; }
+
+                .fl-page .btn-lg span { font-size: 0.7em; }
+                .fl-page .footer { margin-top: 3em; color: #aaa; font-size: 0.9em;}
+                .fl-page .footer a { color: #999; text-decoration: none; margin-right: 0.75em;}
+                .fl-page .github { margin: 2em 0; }
+                .fl-page .github a { vertical-align: top; }
+                .fl-page .marketing a { color: #999; }
+
+                /* override default feather style... */
+                .fixwidth {
+                    background: rgba(256,256,256, 0.8);
+                }
+                .fixwidth .featherlight-content {
+                    width: 500px;
+                    padding: 25px;
+                    color: #fff;
+                    background: #111;
+                }
+                .fixwidth .featherlight-close {
+                    color: #fff;
+                    background: #333;
+                }
+
+            }
+            @media(max-width: 768px){
+                .fl-page h1 span { display: block; }
+                .fl-page .btn-download { float: none; margin-bottom: 1em; }
+            }
 
 /* step 1 : hello */
 
@@ -190,7 +238,7 @@ h1, h2 {
 
 
 .our-offer {
-    background-color: #f0efed;
+    background: url('../images/motif_rayures_light.png') transparent;
 }
 
 .our-offer .our-offer-content {
@@ -198,6 +246,7 @@ h1, h2 {
     height: 100%;
     width: 1000px;
     position: relative;
+    text-align: center;
 }
 
 .our-offer .our-offer-content h2 {
@@ -210,16 +259,69 @@ h1, h2 {
     text-align: justify;
     font-size: 16px;
     line-height: 30px;
+    margin-bottom: 20px;
 }
 
 .our-offer .our-offer-content .our-offer-subcontent {
     margin: auto;
-    width: 695px;
+    width: 1000px;
 }
 
-.our-offer-monetize {
-    height: 130px;
-    background: transparent url(../images/our-offer-monetize.png) no-repeat top center;
+.studio {
+    background: url('../images/dsi.png') no-repeat;
+    display: inline-block;
+    width: 160px;
+    height: 138px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 1px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+
+.desc {
+          margin: 20px ;
+          font: 13px 'UbuntuRegular', Arial, sans-serif;
+        }
+
+  .title {
+          margin-top: 102px;
+          height: 40px;
+          font: 11px 'UbuntuRegular', Arial, sans-serif;
+          line-height: 14px;
+          color: #6a205f;
+          text-transform: uppercase;
+        }
+
+.our-offer2 {
+    background: #dddddd;
+}
+
+.our-offer2 .our-offer-content {
+    margin: auto;
+    height: 100%;
+    width: 1000px;
+    position: relative;
+}
+
+.our-offer2 .our-offer-content h2 {
+    padding: 20px 0px;
+    font-size: 42px;
+    color: #6a205f;
+}
+
+.our-offer2 .our-offer-content p {
+    padding: 0px 15px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.our-offer2 .our-offer-content .our-offer-subcontent {
+    margin: auto;
+    width: 1000px;
 }
 
 /* our formations */
@@ -238,7 +340,6 @@ h1, h2 {
     margin-bottom: 8px;
 }
 
-
 /* case study */
 
 .case-study {
@@ -254,30 +355,38 @@ h1, h2 {
 }
 
 .case-study .section-content .case-study-sncf {
-    position: absolute;
-    left: 300px;
-    top: 90px;
-    width: 600px;
+    position: relative;
+    left: -20px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 20px;
 }
+
 
 .case-study .section-content img {
     margin-bottom: 25px;
 }
 
 .case-study .section-content .case-study-sncf h4 {
-    font-size: 20px;
     margin-bottom: 10px;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0.3);
+    padding: 5px 10px;
+    margin-top: -27px;
+    width: 241px;
+    z-index: 5;
 }
 
 .case-study .section-content .case-study-sncf p {
-
+font-size: 14px;
+line-height: 20px;
 }
 
 .case-study .section-content .case-study-sncf .button {
     display: inline-block;
     background-color: #31a4c3;
     text-transform: uppercase;
-    margin-top: 5px;
+    margin: 15px 0px 30px 0px;
     padding: 5px 10px;
     color: #FFFFFF;
 
