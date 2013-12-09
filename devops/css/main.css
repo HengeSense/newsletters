@@ -166,10 +166,10 @@ h1, h2 {
 }
 
 .hello .header-devops {
-    height: 241px;
+    height: 211px;
     width: 596px;
     position: absolute;
-    top: 71px;
+    top: 98px;
     right: 0px;
     z-index: 10;
 }
