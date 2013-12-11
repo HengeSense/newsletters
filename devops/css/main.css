@@ -432,26 +432,6 @@ h1, h2 {
         display: inline-block;
     }
 
-    .logo-large {
-      div {
-        background: url('../images/trust-logos-large.png') 0px 0px no-repeat;/*-220px*/
-        height: 80px;
-        width: 190px;
-        display: inline-block;
-      }
-
-      a {
-        display: inline-block;
-        height: 80px;
-        width: 190px;
-        color: @blue;
-        line-height:80px;
-        vertical-align: top;
-        margin-left:40px;
-        font-family: 'UbuntuLightItalic', Arial, sans-serif;
-        font-size:23px;
-      }
-    }
 
 .case-study {
     background: transparent url(../images/case-study-bg.png) repeat top left;
