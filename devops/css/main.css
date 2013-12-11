@@ -238,7 +238,7 @@ h1, h2 {
 
 
 .our-offer {
-    background: url('../images/motif_rayures_light.png') transparent;
+    background: #6a205f;
 }
 
 .our-offer .our-offer-content {
@@ -252,6 +252,7 @@ h1, h2 {
 .our-offer .our-offer-content h2 {
     padding: 20px 0px;
     font-size: 42px;
+    color: #ffffff;
 }
 
 .our-offer .our-offer-content p {
@@ -260,6 +261,7 @@ h1, h2 {
     font-size: 16px;
     line-height: 30px;
     margin-bottom: 20px;
+    color: #ffffff;
 }
 
 .our-offer .our-offer-content .our-offer-subcontent {
@@ -279,6 +281,7 @@ h1, h2 {
     cursor: pointer;
     margin-right: 20px;
     margin-bottom: 32px;
+    color: #ffffff;
 }
 .kick-starter {
     background: url('../images/kick-starter.png') no-repeat;
@@ -292,6 +295,7 @@ h1, h2 {
     cursor: pointer;
     margin-right: 20px;
     margin-bottom: 32px;
+    color: #ffffff;
 }
 .sensibilisation {
     background: url('../images/sensibilisation.png') no-repeat;
@@ -355,7 +359,7 @@ h1, h2 {
           height: 40px;
           font: 11px 'UbuntuRegular', Arial, sans-serif;
           line-height: 14px;
-          color: #6a205f;
+          color: #ffffff;
           text-transform: uppercase;
         }
 
