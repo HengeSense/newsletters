@@ -280,7 +280,71 @@ h1, h2 {
     margin-right: 20px;
     margin-bottom: 32px;
 }
-
+.kick-starter {
+    background: url('../images/kick-starter.png') no-repeat;
+    display: inline-block;
+    width: 160px;
+    height: 138px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 1px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+.sensibilisation {
+    background: url('../images/sensibilisation.png') no-repeat;
+    display: inline-block;
+    width: 160px;
+    height: 138px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 1px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+.audit {
+    background: url('../images/audit.png') no-repeat;
+    display: inline-block;
+    width: 160px;
+    height: 138px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 1px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+.realisation {
+    background: url('../images/realisation.png') no-repeat;
+    display: inline-block;
+    width: 160px;
+    height: 138px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 1px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+.ulteam {
+    background: url('../images/ulteam.png') no-repeat;
+    display: inline-block;
+    width: 160px;
+    height: 138px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 1px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
 .desc {
           margin: 20px ;
           font: 13px 'UbuntuRegular', Arial, sans-serif;
