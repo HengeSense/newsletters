@@ -1,4 +1,4 @@
-big-data-minisite
+DevOps-minisite
 =================
 
 Hello,
